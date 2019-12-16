@@ -1,0 +1,147 @@
+body{
+  padding: 0;
+  margin: 0;
+  border:0.1px dashed #fff;
+}
+
+#parti_couleur{
+  float: left;
+  width: 30%;
+  background-color:#ee82ee; 
+}
+
+img{
+ width: 25%;
+}
+
+#chat{
+ border-radius:50%;
+ width: 60%;
+ margin: 10% 25% 10% 19%;
+ box-shadow: 5px 5px 5px #9932cc;
+}
+
+.titre_h3_couleur{
+  color: #ee82ee;
+  background-color: #9932cc;
+  text-align: center;
+  font-size: 20px;
+  padding: 1%;
+}
+
+/*tout les p de la parti couleur + dernier paragraphe parti blanche*/
+aside p{
+  line-height: 10%;
+  margin-left: 10%;
+}
+
+/*parti couleur = a propos de moi parti blanche = chaque gros block apres le nom*/
+div{
+    display: flex;
+}
+
+#a_propos_de_moi{
+ display: flex;
+ flex-direction: column;
+}
+
+.icone_loisir{
+ margin-left: 3%;
+}
+
+/*icone de maman*/
+#maman{
+ width: 29%;
+}
+
+#parti_blanche{
+    margin-left: 35%;
+}
+
+/*nom + metier*/
+#header_principal{
+  margin:9% 0 3% 0;
+}
+
+h1{
+   font-size: 52px;
+}
+
+#prenom{
+color: #ee82ee;
+}
+
+#titre_h2{
+    color: grey;
+    margin-top: -4%;
+}
+
+hr{
+   border: 1px solid #ee82ee;
+   display: block;
+   margin-top: -2%;
+}
+
+#demi_hr{
+   width: 4.5%;
+   text-align:left;
+   position: absolute;
+   top: 30.5%;
+}
+
+.image_icone{
+    max-width: 4%;
+}
+
+/* ex formation*/
+.titre_h3{
+    display: inline-block;
+    font-size: 25px;
+margin-top: 5%;
+}
+
+li{
+    color: #ee82ee;
+font-size: 200%;
+}
+
+li p{
+    color: black;
+    font-size: 50%;
+}
+
+.ville{
+    list-style-type: none;
+    margin-top: -10%;
+}
+
+/*descriptif a droite*/
+article{
+  position: absolute;
+  left: 55%;
+}
+
+/*entreprise*/
+h4{
+   font-size: 20px;
+}
+
+/*nom*/
+h5{
+   font-size: 15px;
+}
+
+article p, h5{
+   margin-top: -20px;
+}
+
+.recommandation{
+ position: absolute;
+ left:34%;
+}
+
+#recommandation{
+position: absolute;
+right: 20%;
+top: 184%;
+}
